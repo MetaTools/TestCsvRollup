@@ -15,6 +15,7 @@ namespace CsvRollupNN
         public App(IOrganizationService svc)
         {
             this.svc = svc;
+            //this is a test
         }
 
         public void Run(Guid id)
