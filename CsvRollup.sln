@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LicenseOrg.CsvRollup", "LicenseOrg.CsvRollup\LicenseOrg.CsvRollup.shproj", "{30E5FBDE-BB07-43CF-A534-24DF684E513B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseOrg.CsvRollup.Cmd", "LicenseOrg.CsvRollup.Cmd\LicenseOrg.CsvRollup.Cmd.csproj", "{021FA86F-7D94-4029-9BBB-FFC392484D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseOrg.CsvRollup.ProxyClasses", "LicenseOrg.CsvRollup.ProxyClasses\LicenseOrg.CsvRollup.ProxyClasses.csproj", "{C5C5E47A-17DC-4CB6-95B0-9A7DBD985298}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CsvRollupNN", "CsvRollupNN\CsvRollupNN.shproj", "{865B75AD-5C23-443D-B76D-C45A383236F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvRollupNN.Cmd", "CsvRollupNN.Cmd\CsvRollupNN.Cmd.csproj", "{3FFACA7E-94B6-4517-8FCC-CE92FB9427A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LicenseOrg Example", "LicenseOrg Example", "{E3FF51A5-E79F-4658-9A8B-A67AC1B410C8}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		LicenseOrg.CsvRollup\LicenseOrg.CsvRollup.projitems*{021fa86f-7d94-4029-9bbb-ffc392484d02}*SharedItemsImports = 4
+		LicenseOrg.CsvRollup\LicenseOrg.CsvRollup.projitems*{30e5fbde-bb07-43cf-a534-24df684e513b}*SharedItemsImports = 13
+		CsvRollupNN\CsvRollupNN.projitems*{3ffaca7e-94b6-4517-8fcc-ce92fb9427a4}*SharedItemsImports = 4
+		CsvRollupNN\CsvRollupNN.projitems*{865b75ad-5c23-443d-b76d-c45a383236f0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{021FA86F-7D94-4029-9BBB-FFC392484D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021FA86F-7D94-4029-9BBB-FFC392484D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021FA86F-7D94-4029-9BBB-FFC392484D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021FA86F-7D94-4029-9BBB-FFC392484D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C5E47A-17DC-4CB6-95B0-9A7DBD985298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C5E47A-17DC-4CB6-95B0-9A7DBD985298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C5E47A-17DC-4CB6-95B0-9A7DBD985298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C5E47A-17DC-4CB6-95B0-9A7DBD985298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFACA7E-94B6-4517-8FCC-CE92FB9427A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFACA7E-94B6-4517-8FCC-CE92FB9427A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFACA7E-94B6-4517-8FCC-CE92FB9427A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFACA7E-94B6-4517-8FCC-CE92FB9427A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30E5FBDE-BB07-43CF-A534-24DF684E513B} = {E3FF51A5-E79F-4658-9A8B-A67AC1B410C8}
+		{021FA86F-7D94-4029-9BBB-FFC392484D02} = {E3FF51A5-E79F-4658-9A8B-A67AC1B410C8}
+		{C5C5E47A-17DC-4CB6-95B0-9A7DBD985298} = {E3FF51A5-E79F-4658-9A8B-A67AC1B410C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FA76211-4C64-4519-8DD7-711759C213FC}
+	EndGlobalSection
+EndGlobal
